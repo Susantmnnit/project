@@ -1,0 +1,33 @@
+.contact-det{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    background-image: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.contact-det h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:inherit;
+    color: rgba(9, 244, 222, 0.99);
+}
+
+.contact-details{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    background-image: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.contact-details-d{
+    padding-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height:384px;
+}
+.contact-details-d1{
+    padding-top: 7px;
+}
+.contact-details-d2{
+    padding-top: 7px;
+}
+.services{
+    display:flex;
+    justify-content: center;
+}

@@ -1,0 +1,56 @@
+.book-heading{
+    display:flex;
+    justify-content: center;
+    color: rgb(223, 155, 66);
+    background-color: aliceblue;
+
+}
+.table-booking{
+    display:flex;
+    width:100%;
+    flex-wrap: wrap;
+}
+.table-1{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:20px;
+    /* cursor: pointer; */
+}
+.table-1 img{
+    width:264px;
+    border-radius: 31px;
+}
+.table-1 h3{
+    text-align: center;
+    background: linear-gradient(0deg, #f40505, #0404f4, #f75403);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: serif;
+}
+.table-1 h3:hover{
+    color:rgb(241, 8, 8);
+    /* background-color: antiquewhite; */
+}
+.table-1 button{
+    background-color: #ec921e;
+    color:beige;
+    border-radius: 7px;
+    height: 24px;
+    width: 61px;
+    cursor: pointer;
+}
+.table-1 button:hover{
+    background-color: rgb(67, 236, 87);
+    color:rgb(215, 239, 214)
+}
+
+.table-1-butt{
+    display:flex;
+    justify-content: center;
+}
+
+.table-1-button{
+    padding-top: 16px;
+    padding-left: 19px;
+}

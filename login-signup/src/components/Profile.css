@@ -1,0 +1,80 @@
+.Profile-page{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Profile-page-header{
+    background-color: bisque;
+    width:100%;
+}
+
+.Profile-page-header h3{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style:inherit;
+    background: linear-gradient(0deg, #f40505, #0404f4, #f75403);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Profile-page-details{
+    background-color: rgb(245, 247, 236);
+    width:100%;
+}
+
+.Profile-page-details h3{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style:inherit;
+    color: #d95656
+}
+.login-form {
+    /* display: flex; */
+    /* flex-direction: column; */
+    gap: 6px;
+    margin-top: 10px;
+  }
+
+.details-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.details-form input {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+
+  #i-1{
+    margin-left: 73px;
+  }
+  #i-2{
+    margin-left: 58px;
+  }
+  #i-3{
+    margin-left: 39px;
+  }
+  #i-4{
+    margin-left: 12px;
+  }
+  #i-5{
+    margin-left: 118px;
+  }
+  #i-6{
+    margin-top: 9px;
+    margin-left: 79px;
+  }
+  .login-form input[type="submit"] {
+    width: 86px;
+    /* text-align: center; */
+  }
+  .login-form > .button{
+    text-align: center;
+    padding-top: 14px;
+  }
